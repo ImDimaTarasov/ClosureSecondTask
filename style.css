@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.response {
+    border: 1px solid black;
+}
+.card {
+    height: 200px;
+}
+.loading {
+    display: none;
+}
+.active {
+    display: block;
+}
