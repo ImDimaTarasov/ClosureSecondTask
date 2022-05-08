@@ -4,6 +4,7 @@ const app = () => {
 	const textArea = document.querySelector(".card-text");
 
 	const request = makeRequestUsingURL();
+	
 	const usedUrls = [];
 	const urlFromUser = {
 		url: "http://localhost:3000/employees",
