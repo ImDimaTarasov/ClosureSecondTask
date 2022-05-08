@@ -1,7 +1,4 @@
 const makeRequestUsingURL = () => {
-
-
-	
 	const request = async (url) => {
 		try {
 			const response = await fetch(url);
@@ -18,7 +15,6 @@ const makeRequestUsingURL = () => {
 	};
 	return request;
 };
-
 
 // const people = [
 // 	{ name: "Alice", age: 21 },

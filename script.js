@@ -17,7 +17,7 @@ const app = () => {
 		if (usedUrls.includes(url)) {
 			return "this url has already been";
 		}
-		
+
 		usedUrls.push(url);
 		return url;
 	};
@@ -51,7 +51,7 @@ const app = () => {
 	const errorMessage = () => {
 		btn.disabled = true;
 		textArea.textContent = urlFromUser.errorMessage;
-	}
+	};
 	const createContent = (data) => {
 		const content = document.createElement("div");
 
