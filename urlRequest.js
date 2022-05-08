@@ -1,4 +1,7 @@
 const makeRequestUsingURL = () => {
+
+
+	
 	const request = async (url) => {
 		try {
 			const response = await fetch(url);
